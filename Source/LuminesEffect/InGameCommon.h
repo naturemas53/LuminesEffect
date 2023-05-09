@@ -18,6 +18,8 @@ enum class EBlockType : uint8
 	BLOCK_SPACE,  //!< 空白.
 	BLOCK_WALL,   //!< 壁.
 	BLOCK_NORMAL, //!< 通常ブロック.
+
+	BLOCK_MAX,    //!< ブロック種類数.
 };
 
 UENUM(BlueprintType, Category = "InGame")
@@ -26,4 +28,6 @@ enum class EHaveColor : uint8
 	HAVE_COLOR_NONE, //!< 未所持.
 	HAVE_COLOR_A,    //!< カラーAを所持.
 	HAVE_COLOR_B,    //!< カラーBを所持.
+
+	HAVE_COLOR_MAX   //!< 所持色の種類数.
 };

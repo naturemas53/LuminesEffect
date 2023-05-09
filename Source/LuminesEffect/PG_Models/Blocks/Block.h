@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "../InGameCommon.h"
+#include "../../InGameCommon.h"
 
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"

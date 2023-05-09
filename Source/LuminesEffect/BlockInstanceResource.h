@@ -2,11 +2,14 @@
 
 #pragma once
 
+#include "InGameCommon.h"
+//#include "Blocks/Block.h"
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "BlockInstanceResource.generated.h"
-#include "InGameCommon.h"
-#include "Blocks/Block.h"
+
+class UBlock;
 
 UCLASS()
 class LUMINESEFFECT_API ABlockInstanceResource : public AActor
@@ -27,7 +30,7 @@ public:
 
 private:
 	
-	TMap< EBlockType, TArray<UBlock> > m_UnUsedBlocks; //!< 未使用ブロックデータ.
+	//TMap< EBlockType, TArray<UBlock> > m_UnUsedBlocks; //!< 未使用ブロックデータ.
 	//TMap< EBlockType, TArray<UBlock> > m_UnUsedBlockView; //!< 未使用ブロックデータ.
 
 };
